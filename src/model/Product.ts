@@ -3,7 +3,7 @@ type Product = {
   nombre: string;
   valor: number;
   enStock: boolean;
-  createdOn: Date;
+  createdOn?: Date;
 };
 
 export { Product };
